@@ -1,0 +1,25 @@
+body{
+  color: white;
+  background-color: black;
+}
+.form{
+  margin-top: 253px;
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  
+}
+h1{
+  border-radius: 100%;
+  border-style: solid;
+  padding: 5%;
+  margin: 1%;
+  font-size: 550%;
+}
+button{
+  border-radius: 100%;
+  font-size: 520%;
+  padding-right: 1%;
+  padding-left: 1%;
+}
