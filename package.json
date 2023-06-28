@@ -5,12 +5,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0"
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "dev": "vite"
-  }
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
   ,
   "dependencies": {
     "bootstrap": "^5.3.0",
